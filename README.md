@@ -176,3 +176,13 @@ python track_and_classify_with_rnn.py path/to/video.mp4 tennis_rnn.h5
 ```
 
 You can append `--left-handed` if your player is left-handed.
+
+
+
+To run it real-time on my own device, should use WSL, in av env, and run the following command.
+
+```
+python TrackPose.py path/to/video.mp4 tennis_rnn.h5
+```
+
+You can append `--left-handed` if your player is left-handed.
